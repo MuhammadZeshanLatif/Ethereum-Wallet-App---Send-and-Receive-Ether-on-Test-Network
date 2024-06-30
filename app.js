@@ -195,7 +195,7 @@ if (cmnd) {
         try {
             let count = 0;
             let shwEvents = await contract.queryFilter("showDetail");
-            dataTable.innerHTML = ""; // Clear existing data
+            
             shwEvents.map(data => {
                 dataTable.innerHTML += `<tr>
                     <th>${++count}</th>
