@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+.table tr th,.table tr td{
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+}
+#contractBlnc{
+    
+font-size: 24px;
+    
+color: aliceblue;
+}
+.amount-sending-form{
+    width: 400px;
+    padding: 20px 40px;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.inp input{
+     background-color: transparent;
+     width: 100%;
+     border: 1px solid white;
+     border-radius: 5px;
+     margin-bottom: 10px;
+     color: white;
+     height: 50px;
+     padding: 0 10px;
+     align-items: center;
+}
+.inp button{
+    display: flex;
+}
+.rcveth button{
+    justify-content: center;
+    display: flex;
+}
+.rcveth input{
+    background-color: transparent;
+    width: 70%;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+    height: 50px;
+    padding: 0 10px;
+    align-items: center;
+}
+.rcveth label{
+    color: aliceblue;
+}
